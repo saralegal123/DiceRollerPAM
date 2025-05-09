@@ -2,7 +2,11 @@
 {
     public partial class MainPage : ContentPage
     {
-        int count = 0;
+        int selectedNumber;
+        int totalVitorias = 0;
+        int sequenciaAcertos = 0;
+        int somaLadoOposto = 0;
+        int numeroLado = 6;
 
         public MainPage()
         {
